@@ -189,7 +189,7 @@ Nᴀᴍᴇ - {}
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>"""
 
 
-    SINFO = """
+SINFO = """
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
@@ -198,35 +198,35 @@ Nᴀᴍᴇ - {}
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01E01
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)'
+"""
 
-    NORSLTS = """ 
-    #NoResults
+NORSLTS = """ 
+#NoResults
 
-    Iᴅ : <code>{}</code>
-    Nᴀᴍᴇ : {}
+Iᴅ : <code>{}</code>
+Nᴀᴍᴇ : {}
 
-    Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
+Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
-    CAPTION = (
-        '<b>ғɪʟᴇs sɪᴢᴇ :</b> <i>{file_size}</i>\n\n'
-        '{file_caption}\n\n'
-        '<b>💥 <a href="https://tamiltvtoons.com/">Tamil Tv Toons</a> 💥</b>'
-    )
+CAPTION = (
+    '<b>ғɪʟᴇs sɪᴢᴇ :</b> <i>{file_size}</i>\n\n'
+    '{file_caption}\n\n'
+    '<b>💥 <a href="https://tamiltvtoons.com/">Tamil Tv Toons</a> 💥</b>'
+)
 
-    MOVIE_UPDATE_NOTIFY_TXT = """
-    </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+MOVIE_UPDATE_NOTIFY_TXT = """
+</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
-    <blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
 
-    🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-    📺 ᴏᴛᴛ        : <b>{ott}</b>
-    🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-    🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-    🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-    {episodes}
-    </blockquote>
-    
+🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
+📺 ᴏᴛᴛ        : <b>{ott}</b>
+🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
+🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
+🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+{episodes}
+</blockquote>
 
 🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
 """
